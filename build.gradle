@@ -1,0 +1,60 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'org.springframework.boot:spring-boot-gradle-plugin:2.3.2.RELEASE' //   classpath 'org.springframework.boot:spring-boot-gradle-plugin:1.5.20.RELEASE'
+    }
+}
+
+plugins {
+    id 'java'
+}
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+
+group = 'com.crud'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.springframework.boot:spring-boot-starter-web'
+    compile('org.springframework.boot:spring-boot-starter-data-jpa')
+    compile('mysql:mysql-connector-java')
+    compile group: 'io.springfox', name: 'springfox-swagger2', version: '2.9.2'
+    compile('org.springframework.boot:spring-boot-starter-actuator')
+    compile group: 'org.hibernate', name: 'hibernate-validator', version: '6.1.5.Final'
+    compile group: 'javax.persistence', name: 'javax.persistence-api', version: '2.2'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    testCompile group: 'org.mockito', name: 'mockito-core', version: '3.3.3'
+    runtimeOnly 'com.h2database:h2'
+    testCompile 'org.springframework.boot:spring-boot-starter-test'
+    testCompile group: 'org.mockito', name: 'mockito-all', version: '2.0.2-beta'
+    // Swagger
+    compile('io.springfox:springfox-swagger2:2.7.0')
+    compile('io.springfox:springfox-swagger-ui:2.7.0')
+
+}
+
+bootRun {
+    main = 'com.app.ppbackend.PpbackendApplication'
+}
+
+tasks.withType(Test) {
+    scanForTestClasses = false
+    include "**/*Test.class"
+}
+
+
+
+
+
+
+
