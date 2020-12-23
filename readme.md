@@ -149,7 +149,7 @@ To submit a book into the database you simply enter a book's details into "Book 
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/FORMV.png" width="600"/>
 
-Under "Add a book" and "Delete all books" button you can see "Switch to Vaadin Frontend" button, which allows you to switch frontend from HTML/CSS/JS based one to Vaadin, which is a Java framework for the web applications.
+Under "Add a book" and "Delete all books" button you can see "Switch to Vaadin Frontend" button, which allows you to switch frontend from HTML/CSS/JS based one to Vaadin, which is a Java framework for the frontend of web applications. Find more from ### 2.2.7
 
 #### 2.2.5 Editing and deleting books from the database
 
@@ -169,3 +169,6 @@ If you want to know more about any book present in the database you can click "d
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/BOOKDETAILS.gif" width="600"/>
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/BOOKSEARCH.gif" width="600"/>
+
+### 2.2.7 Vaadin
+
