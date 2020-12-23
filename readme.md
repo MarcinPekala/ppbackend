@@ -109,8 +109,9 @@ b) If the backend is succesfully up and running then we repeat all the steps but
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/Terminal4.png" width="400"/>
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/Terminal5.png" width="400"/>
+<img src="https://github.com/MarcinPekala/readme_images/blob/master/Terminal6.png" width="400"/>
 
-(Paste Frontend-Vaadin Screens here)
+<img src="https://github.com/MarcinPekala/readme_images/blob/master/Terminal7.png" width="400"/>
 
 4. When ppbackend-master (or ppbackend), ppfrontend-master (or ppfrontend) and ppfrontend-vaadin-master (or ppfrontend-vaadin) are succesfully up and running we access the following address via search engine of your choice (Google Chrome reccomended): http://localhost:8081
 
