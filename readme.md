@@ -1,6 +1,7 @@
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/PLA.png" width="400"/>
 
-Go to https://github.com/MarcinPekala/ppfrontend for frontend repository
+Go to https://github.com/MarcinPekala/ppfrontend for HTML/CSS/JS frontend repository
+Go to https://github.com/MarcinPekala/ppfrontend-vaadin for Vaadin frontend repository
 
 # 1. General description
 
@@ -12,7 +13,7 @@ Go to https://github.com/MarcinPekala/ppfrontend for frontend repository
 *Personal Library App*
 
 ## 1.2 Application's purpose
-The main reason behind this application development was to implicate in practice the skills I gathered regarding the development of REST API applications using Spring Boot Java on Gradle project in a form of personal project with separate repositories for frontend and backend.
+The main reason behind this application development was to implicate in practice the skills I gathered regarding the development of REST API applications using Spring Boot Java on Gradle project in a form of personal project with separate repositories for HTML/CSS/JS frontend, Vaadin frontend and backend.
 </br></br>
 The purpose of *Personal Library App* is to help people organize their books' collection on a web based app with multiple functions.
 
@@ -27,25 +28,27 @@ REST API writen in Java's Spring Boot with usage of following technologies in th
     <li>H2 databse (or MySQL database upon personal configuration)</li>
       <li>Spring Data JPA</li>
     <li>Swagger.io</li>
-    <li>Spring Actuator (Reconsidering inclusion)</li>
+    <li>Spring Actuator</li>
         <li>Google GSON</li>
         <li>Mockito for JUnit tests</li>
   <li>Spring Hibernate</li>
 </ul>
-In total backend side has 10 packages, totaling 12 classes, which has about 1288 lines of java according to statistic IntelliJ IDEA plugin and JUnit tests coverage of about 89%. 
+In total backend side has 10 packages, totaling 12 classes, which has about 1285 lines of java according to the statistic IntelliJ IDEA plugin and JUnit tests coverage of about 89%. 
 
 ### Frontend:
-Frontend side was mostly written in HTML/CSS/JS with a Vaadin part currently being under a development. I also used jQuery v3.4.1 framework for js to process HTTPS requests from the REST API. I also used Google Books API and Materialize v0.100.2 for HTML/JS/CSS. Summarizing, I used the following technologies:
+Frontend side was developed using both HTML/CSS/JS and Vaadin technology. Additionally, I used jQuery v3.4.1 framework for javascript to process HTTPS requests from the REST API. I also used Google Books API and Materialize v0.100.2 for HTML/JS/CSS. Summarizing, I used the following technologies:
 
 <ul>
   <li>HTML/CSS/JS</li>
   <li>Google Books API</li>
   <li>Materialize v0.100.2</li>
   <li>jQuery v3.4.1</li>
-  <li>Vaadin (Java framework for web apps)</li>
+  <li>Vaadin (Java framework for web applications)</li>
 </ul>
 
-In total frotnend side has 5 packages with 7 java files with about 484 lines of code. Html code has about 162 lines, css about 241 and js about 652.
+In total HTML/CSS/JS frotnend side has one java file with about 46 lines of code. Additionally, there are 2 css files, 2 js files and 2 html files. Html code has about 140 lines, css about 241 and js about 645.
+
+Vaadin frontend side has 4 packages, totaling 4 clasess with about 387 lines of java according to statistic pluin in IntelliJ IDEA. 
 
 ## 1.4 Target Users
 
@@ -66,11 +69,12 @@ In total frotnend side has 5 packages with 7 java files with about 484 lines of 
 
 ### In order to start the application you need to do the following steps:
 
-1.	Clone or dowload repositories from: https://github.com/MarcinPekala/ppbackend.git and https://github.com/MarcinPekala/ppfrontend.git
+1.	Clone or dowload repositories from: https://github.com/MarcinPekala/ppbackend.git, https://github.com/MarcinPekala/ppfrontend.git and https://github.com/MarcinPekala/ppfrontend-vaadin.git
 ```
 You can use the following commands in terminal (for MacOS) to clone the repositories:
   git clone https://github.com/MarcinPekala/ppbackend.git
   git clone https://github.com/MarcinPekala/ppfrontend.git
+  git clone https://github.com/MarcinPekala/ppfrontend-vaadin.git
 ```
 
 2.	The H2 database is configured automatically but if you want to access the SQL database click the following buttton on the main page (both ppbackend and ppfrontend packages needs to be up and running to access it):
@@ -97,7 +101,7 @@ If the application was build successfully then we use the following command to s
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/Terminal2.png" width="400"/>
 
-b) If the backend is succesfully up and running then we repeat all the steps but for ppfrontend-master (or ppfrontend when cloning) in a new terminal window. It might take some time for frontend to start, so don't get discouraged.
+b) If the backend is succesfully up and running then we repeat all the steps but for ppfrontend-master (or ppfrontend when cloning) and ppfrontend-vaadin-master (or ppfrontend-vaadin when cloning) in two new terminal windows. It might take some time for frontend windows to start, so don't get discouraged.
 
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/Terminal3.png" width="400"/>
@@ -105,11 +109,13 @@ b) If the backend is succesfully up and running then we repeat all the steps but
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/Terminal5.png" width="400"/>
 
-4. When both ppbackend-master (or ppbackend) and ppfrontend-master (or ppfrontend) are succesfully up and running we access the following address via search engine of your choice (Google Chrome reccomended): http://localhost:8081
+(Paste Frontend-Vaadin Screens here)
+
+4. When ppbackend-master (or ppbackend), ppfrontend-master (or ppfrontend) and ppfrontend-vaadin-master (or ppfrontend-vaadin) are succesfully up and running we access the following address via search engine of your choice (Google Chrome reccomended): http://localhost:8081
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/Localhost.png" width="400"/>
 
-5. To close the application you need to close both terminal windows, which are locally hosting the application's frontend and backend or click "ctrl + c" to stop the apllication without closing the terminal.
+5. To close the application you need to close all terminal windows, which are locally hosting the application's frontend and backend or click "ctrl + c" in all terminal windows in order to stop the application hosting, without the need to close the terminal windows.
 
 ## 2.2 Application's abilities and main functionalities
 
@@ -141,19 +147,19 @@ To submit a book into the database you simply enter a book's details into "Book 
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/FORMV.png" width="600"/>
 
-Under "Add a book" and "Delete all books" button you can see "Switch to Vaadin Frontend" button, which allows you to switch frontend from HTML/CSS/JS based one to Vaadin, which is a Java framework for the web applications. Currently this part is under the development thus the notification window to confirm it will pop-up.
+Under "Add a book" and "Delete all books" button you can see "Switch to Vaadin Frontend" button, which allows you to switch frontend from HTML/CSS/JS based one to Vaadin, which is a Java framework for the web applications.
 
 #### 2.2.5 Editing and deleting books from the database
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/DBF.png" width="600"/>
 
-Under the form you'll see the list of all books in the database. By clicking "edit" you'll toggle the editing state, which will allow you to rewrite information regarding the book or abort this proccess if you don't want to make any changes. Some fields can be left blank. You can also click "delete" in order to delete a single book from the database by its id.
+Under the form you'll see the list of all books in the database. By clicking "edit" you'll toggle the editing state, which will allow you to rewrite information regarding the book or abort this proccess if you don't want to make any changes. Some fields can be left blank. You can also click "delete" in order to delete a book from the database by its id.
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/DBF2.png" width="600"/>
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/DELETE.gif" width="600"/>
 
 #### 2.2.6 Book status, details and book search via Google Books
-You can set a book status, from "Bought and read", "Bought but unread" and "To buy" in order to organize your collection by the purpose of the book inserted into the database.
+You can adjust a book status from "Bought and read", "Bought but unread" and "To buy".
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/BOOKSTATUS.gif" width="600"/>
 
