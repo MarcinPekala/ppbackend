@@ -170,7 +170,7 @@ If you want to know more about any book present in the database you can click "d
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/BOOKDETAILS.gif" width="600"/>
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/BOOKSEARCH.gif" width="600"/>
 
-### 2.2.7 Desctiption of Vaadin functionalities
+### 2.2.7 Description of Vaadin functionalities
 
 
 
