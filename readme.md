@@ -1,7 +1,8 @@
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/PLA.png" width="400"/>
 
 Go to https://github.com/MarcinPekala/ppfrontend for HTML/CSS/JS frontend repository
-Go to https://github.com/MarcinPekala/ppfrontend-vaadin for Vaadin frontend repository
+
+And go to https://github.com/MarcinPekala/ppfrontend-vaadin for Vaadin frontend repository
 
 # 1. General description
 
