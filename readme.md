@@ -172,6 +172,40 @@ If you want to know more about any book present in the database you can click "d
 
 ### 2.2.7 Description of Vaadin functionalities
 
+<img src="https://github.com/MarcinPekala/readme_images/blob/master/VaadinScreen.png" width="600"/>
+
+1. 
+
+<img src="https://github.com/MarcinPekala/readme_images/blob/master/Select.gif" width="600"/>
+
+2.
+
+<img src="https://github.com/MarcinPekala/readme_images/blob/master/Update.gif" width="600"/>
+
+3.
+
+<img src="https://github.com/MarcinPekala/readme_images/blob/master/DeleteV.gif" width="600"/>
+
+4.
+
+<img src="https://github.com/MarcinPekala/readme_images/blob/master/Add.gif" width="600"/>
+
+5.
+
+<img src="https://github.com/MarcinPekala/readme_images/blob/master/CheckStoredBooks.gif" width="600"/>
+
+6.
+
+<img src="https://github.com/MarcinPekala/readme_images/blob/master/FindByAuthor.gif" width="600"/>
+
+7.
+
+<img src="https://github.com/MarcinPekala/readme_images/blob/master/DeleteAll.gif" width="600"/>
+
+
+
+
+
 
 
 
