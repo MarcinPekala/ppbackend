@@ -208,11 +208,3 @@ If you want to organize books of the same author in a table on the bottom left, 
 Lastly, if you want to delete all books from the database please click the fourth button from the left on the bottom right corner. Please bear in mind that this process is irreversible.  
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/DeleteAll.gif" width="600"/>
-
-
-
-
-
-
-
-
