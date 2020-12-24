@@ -14,9 +14,9 @@ And please go to https://github.com/MarcinPekala/ppfrontend-vaadin for Vaadin fr
 *Personal Library App*
 
 ## 1.2 Application's purpose
-The main purpose of this application development is to display in practice skills I gathered in regards to the development of REST API applications that use Spring Boot Java on Gradle project in a form of personal project with separate repositories for HTML/CSS/JS frontend, Vaadin frontend and backend. 
+The main purpose of this application development is to display practical skills I gathered in regards to the development of REST API applications that use Spring Boot Java on Gradle project in a form of a personal project with separate repositories for HTML/CSS/JS frontend, Vaadin frontend and backend. 
 </br></br>
-On top of that, *Personal Library App* is to help people to organize their books' collection on a web based app with multiple functions.
+On top of that, *Personal Library App* is to help people organize their books' collection on a web based app with multiple functions.
 
 ## 1.3 Brief summary of application
 
@@ -34,7 +34,7 @@ REST API writen in Java's Spring Boot with usage of following technologies in th
         <li>Mockito for JUnit tests</li>
   <li>Spring Hibernate</li>
 </ul>
-In total, backend side has of 10 packages, totalling 12 classes, which have about 1285 lines of java according to the statistic IntelliJ IDEA plugin and JUnit tests coverage of about 89%.
+In total, backend side consists of 10 packages, totalling 12 classes, which have about 1285 lines of java according to the statistic IntelliJ IDEA plugin and JUnit tests coverage of about 89%.
 
 ### Frontend:
 Frontend side was developed using both HTML/CSS/JS and Vaadin technology. Additionally, I used jQuery v3.4.1 framework for javascript to process HTTPS requests from the REST API. I also used Google Books API and Materialize v0.100.2 for HTML/JS/CSS. Summarizing, I used the following technologies:
@@ -62,7 +62,7 @@ Vaadin frontend side has 4 packages, totaling 4 clasess with about 387 lines of 
 
 ## 2.1 Starting the application
 
-### To start an application off you need as follows:
+### To start an application off you need the following:
 <ul>
 <li>JDK and Java up to date</li>
 <li>Gradle installed(Not sure if needed. To verify)</li>
@@ -95,14 +95,14 @@ a) Open a terminal window (for MacOS) and find the location of ppbackend-master 
 ```
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/Terminal1.png" width="400"/>
 
-In the case of the application has been built correctly then you use the following command to start the application:
+In the case of the application being built correctly, you use the following command to start the application:
 ```
   ./gradlew bootRun
 ```
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/Terminal2.png" width="400"/>
 
-b) In the case of the backend gets successfully up and running then you repeat all the steps for ppfrontend-master (or ppfrontend when cloning) and ppfrontend-vaadin-master (or ppfrontend-vaadin when cloning) in two new terminal windows. It may take some time for frontend windows to start, so don't get discouraged.
+b) In the case of the backend getting successfully up and running, you repeat all the steps for ppfrontend-master (or ppfrontend when cloning) and ppfrontend-vaadin-master (or ppfrontend-vaadin when cloning) in two new terminal windows. It may take some time for frontend windows to start, so don't get discouraged.
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/Terminal3.png" width="400"/>
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/Terminal4.png" width="400"/>
@@ -142,7 +142,7 @@ On the top right you'll see two buttons. The first one on the left lets you acce
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/FORM.png" width="600"/>
 
-To submit a book into the database you simply enter a book's details into "Book author", "Book title" and "Book's year of publication" fields, and click "Add a book". Not all fields need to be filled. You can also click "Delete all books" but this proccess is irreversible.
+In order to submit a book to the database, you simply enter the book's details into "Book author", "Book title" and "Book's year of publication" fields, and click "Add a book". Not all fields need to be filled. You can also click "Delete all books" but this proccess is irreversible.
 
 #### 2.2.4 Switch to Vaadin front
 
@@ -189,7 +189,7 @@ Click the second button on the bottom right corner to delete a single book. Plea
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/DeleteV.gif" width="600"/>
 
 ### 2.3.4 Add a new book
-Use the first buttom from the left on the bottom right corner to add new books into the database. Some or all fields can be null but please deselect the book by clicking "update" as mentioned in point 2 because without doing it the new book might not be added to the database. 
+Use the first button from the left on the bottom right corner to add new books into the database. Some or all fields can be null but please deselect the book by clicking "update" as mentioned in point 2, because otherwise, the new book might not be added to the database. 
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/Add.gif" width="600"/>
 
@@ -199,7 +199,7 @@ Click "Check Stored Books" in the middle bottom corner to get a number of books 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/CheckStoredBooks.gif" width="600"/>
 
 ### 2.3.6 Find by author 
-If you want to organize books of the same author in a table on the bottom left, please click the button "Find By Author", which is located on the left of in the middle bottom corner. 
+If you want to categorize books by the same author in a table on the bottom left, please click the button "Find By Author", which is located on the left of in the middle bottom corner. 
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/FindByAuthor.gif" width="600"/>
 
