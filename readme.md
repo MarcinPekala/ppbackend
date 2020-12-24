@@ -14,9 +14,9 @@ And please go to https://github.com/MarcinPekala/ppfrontend-vaadin for Vaadin fr
 *Personal Library App*
 
 ## 1.2 Application's purpose
-The main reason behind this application development was to implicate in practice the skills I gathered regarding the development of REST API applications using Spring Boot Java on Gradle project in a form of personal project with separate repositories for HTML/CSS/JS frontend, Vaadin frontend and backend.
+The main purpose of this application development is to display in practice skills I gathered in regards to the development of REST API applications that use Spring Boot Java on Gradle project in a form of personal project with separate repositories for HTML/CSS/JS frontend, Vaadin frontend and backend. 
 </br></br>
-The purpose of *Personal Library App* is to help people organize their books' collection on a web based app with multiple functions.
+On top of that, *Personal Library App* is to help people to organize their books' collection on a web based app with multiple functions.
 
 ## 1.3 Brief summary of application
 
@@ -34,7 +34,7 @@ REST API writen in Java's Spring Boot with usage of following technologies in th
         <li>Mockito for JUnit tests</li>
   <li>Spring Hibernate</li>
 </ul>
-In total backend side has 10 packages, totaling 12 classes, which has about 1285 lines of java according to the statistic IntelliJ IDEA plugin and JUnit tests coverage of about 89%. 
+In total, backend side has of 10 packages, totalling 12 classes, which have about 1285 lines of java according to the statistic IntelliJ IDEA plugin and JUnit tests coverage of about 89%.
 
 ### Frontend:
 Frontend side was developed using both HTML/CSS/JS and Vaadin technology. Additionally, I used jQuery v3.4.1 framework for javascript to process HTTPS requests from the REST API. I also used Google Books API and Materialize v0.100.2 for HTML/JS/CSS. Summarizing, I used the following technologies:
@@ -55,20 +55,20 @@ Vaadin frontend side has 4 packages, totaling 4 clasess with about 387 lines of 
 
 <ul>
   <li><b>Web Admin</b> - A person who manages the server and database on which the application is deployed.</li>
-  <li><b>User</b> - A web users, who use this application to manage their personal libraries. 
+  <li><b>User</b> - A web user, who uses this application to manage their personal libraries. 
 </ul>
 
 # 2. Description of functionalities
 
 ## 2.1 Starting the application
 
-### To start an application you need:
+### To start an application off you need as follows:
 <ul>
 <li>JDK and Java up to date</li>
 <li>Gradle installed(Not sure if needed. To verify)</li>
 </ul>
 
-### In order to start the application you need to do the following steps:
+### In order to start the application off you need to do the following steps:
 
 1.	Clone or dowload repositories from: https://github.com/MarcinPekala/ppbackend.git, https://github.com/MarcinPekala/ppfrontend.git and https://github.com/MarcinPekala/ppfrontend-vaadin.git
 ```
@@ -78,7 +78,7 @@ You can use the following commands in terminal (for MacOS) to clone the reposito
   git clone https://github.com/MarcinPekala/ppfrontend-vaadin.git
 ```
 
-2.	The H2 database is configured automatically but if you want to access the SQL database click the following buttton on the main page (both ppbackend and ppfrontend packages needs to be up and running to access it):
+2.	The H2 database is configured automatically, however in case you want to access the SQL database click the following button on the main page (both ppbackend and ppfrontend packages needs to be up and running to access it):
 
   <img src="https://github.com/MarcinPekala/readme_images/blob/master/DB1.png" width="400"/>
 
@@ -87,23 +87,22 @@ And use the following configuration:
   <img src="https://github.com/MarcinPekala/readme_images/blob/master/DB2.png" width="400"/>
   <img src="https://github.com/MarcinPekala/readme_images/blob/master/DB3.png" width="400"/>
 
-3.	To start the project first we need to:
+3.	To start the project first you need to:
 
-a) Open a terminal window (for MacOS) and find the location of ppbackend-master on your disk (or ppbackend when cloning the repository) using "ls" and "cd example_path" commands(for MacOS). After you opened the ppbackend-master (or ppbackend) via terminal use the following command:
+a) Open a terminal window (for MacOS) and find the location of ppbackend-master on your hard drive or any other location of your choice (or ppbackend when cloning the repository) by using "ls" and "cd example_path" commands (for MacOS). After you get it  open the ppbackend-master (or ppbackend) via terminal, use the following command:
 ```
   ./gradlew build
 ```
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/Terminal1.png" width="400"/>
 
-If the application was build successfully then we use the following command to start the application:
+In the case of the application has been built correctly then you use the following command to start the application:
 ```
   ./gradlew bootRun
 ```
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/Terminal2.png" width="400"/>
 
-b) If the backend is succesfully up and running then we repeat all the steps but for ppfrontend-master (or ppfrontend when cloning) and ppfrontend-vaadin-master (or ppfrontend-vaadin when cloning) in two new terminal windows. It might take some time for frontend windows to start, so don't get discouraged.
-
+b) In the case of the backend gets successfully up and running then you repeat all the steps for ppfrontend-master (or ppfrontend when cloning) and ppfrontend-vaadin-master (or ppfrontend-vaadin when cloning) in two new terminal windows. It may take some time for frontend windows to start, so don't get discouraged.
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/Terminal3.png" width="400"/>
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/Terminal4.png" width="400"/>
@@ -113,11 +112,11 @@ b) If the backend is succesfully up and running then we repeat all the steps but
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/Terminal7.png" width="400"/>
 
-4. When ppbackend-master (or ppbackend), ppfrontend-master (or ppfrontend) and ppfrontend-vaadin-master (or ppfrontend-vaadin) are succesfully up and running we access the following address via search engine of your choice (Google Chrome reccomended): http://localhost:8081
+4. When ppbackend-master (or ppbackend), ppfrontend-master (or ppfrontend) and ppfrontend-vaadin-master (or ppfrontend-vaadin) are succesfully up and running you access the following address via search engine of your choice (Google Chrome reccomended): http://localhost:8081
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/Localhost.png" width="400"/>
 
-5. To close the application you need to close all terminal windows, which are locally hosting the application's frontend and backend or click "ctrl + c" in all terminal windows in order to stop the application hosting, without the need to close the terminal windows.
+5. To close the application you need to close all terminal windows, which locally host the application's frontend and backend or click "ctrl + c" in all terminal windows in order to stop the application hosting, without the need to close the terminal windows.
 
 ## 2.2 Application's abilities and main functionalities (HTML/CSS/JS part)
 
@@ -133,7 +132,7 @@ First thing you'll notice is the database size alert, which appears every time w
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/TB.png" width="600"/>
 
-On the top right you'll see two buttons. The first one on the left let's you access the endpoints documentation powered by swagger.io, and the second one let's you access the database console in SQL.
+On the top right you'll see two buttons. The first one on the left lets you access the endpoints’ documentation powered by swagger.io, and the second one lets you access the database console in SQL.
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/DOCS.png" width="600"/>
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/DB2.png" width="600"/>
