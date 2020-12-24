@@ -49,7 +49,7 @@ Frontend side was developed using both HTML/CSS/JS and Vaadin technology. Additi
 
 In total HTML/CSS/JS frotnend side has one java file with about 46 lines of code. Additionally, there are 2 css files, 2 js files and 2 html files. Html code has about 140 lines, css about 241 and js about 645.
 
-Vaadin frontend side has 4 packages, totaling 4 clasess with about 387 lines of java according to statistic pluin in IntelliJ IDEA. 
+Vaadin frontend side has 4 packages, totaling 4 clasess with about 387 lines of java according to statistic plugin in IntelliJ IDEA. 
 
 ## 1.4 Target Users
 
