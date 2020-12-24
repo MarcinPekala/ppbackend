@@ -119,7 +119,7 @@ b) If the backend is succesfully up and running then we repeat all the steps but
 
 5. To close the application you need to close all terminal windows, which are locally hosting the application's frontend and backend or click "ctrl + c" in all terminal windows in order to stop the application hosting, without the need to close the terminal windows.
 
-## 2.2 Application's abilities and main functionalities
+## 2.2 Application's abilities and main functionalities (HTML/CSS/JS part)
 
 #### 2.2.1 Database size reminder
 
@@ -170,35 +170,42 @@ If you want to know more about any book present in the database you can click "d
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/BOOKDETAILS.gif" width="600"/>
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/BOOKSEARCH.gif" width="600"/>
 
-### 2.2.7 Description of Vaadin functionalities
+## 2.3 Application's abilities and main functionalities (Vaadin part)
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/VaadinScreen.png" width="600"/>
 
-1. Click on the table to highlight and select a title of your choice.
+### 2.3.1 Select a book
+Click on the table to highlight and select a title of your choice.
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/Select.gif" width="600"/>
 
-2. Use the third button from the left on the bottom right corner to update "Author", "Title" or "Year Of Publication" of any of the books. Even if you didn't make any changes please click the "update" button to empty the fields. 
+### 2.3.2 Update a book
+Use the third button from the left on the bottom right corner to update "Author", "Title" or "Year Of Publication" of any of the books. Even if you didn't make any changes please click the "update" button to empty the fields. 
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/Update.gif" width="600"/>
 
-3. Click the second button on the bottom right corner to delete a single book. Please keep in mind that this process is irreversible. 
+### 2.3.3 Delete a book 
+Click the second button on the bottom right corner to delete a single book. Please keep in mind that this process is irreversible. 
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/DeleteV.gif" width="600"/>
 
-4. Use the first buttom from the left on the bottom right corner to add new books into the database. Some or all fields can be null but please deselect the book by clicking "update" as mentioned in point 2 because without doing it the new book might not be added to the database. 
+### 2.3.4 Add a new book
+Use the first buttom from the left on the bottom right corner to add new books into the database. Some or all fields can be null but please deselect the book by clicking "update" as mentioned in point 2 because without doing it the new book might not be added to the database. 
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/Add.gif" width="600"/>
 
-5. Click "Check Stored Books" in the middle bottom corner to get a number of books currently present in the database. 
+### 2.3.5 Check stored books 
+Click "Check Stored Books" in the middle bottom corner to get a number of books currently present in the database. 
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/CheckStoredBooks.gif" width="600"/>
 
-6. If you want to organize books of the same author in a table on the bottom left, please click the button "Find By Author", which is located on the left of in the middle bottom corner. 
+### 2.3.6 Find by author 
+If you want to organize books of the same author in a table on the bottom left, please click the button "Find By Author", which is located on the left of in the middle bottom corner. 
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/FindByAuthor.gif" width="600"/>
 
-7. Lastly, if you want to delete all books from the database please click the fourth button from the left on the bottom right corner. Please bear in mind that this process is irreversible.  
+### 2.3.7 Delete all books
+Lastly, if you want to delete all books from the database please click the fourth button from the left on the bottom right corner. Please bear in mind that this process is irreversible.  
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/DeleteAll.gif" width="600"/>
 
