@@ -45,8 +45,6 @@ Frontend side was mostly written in HTML/CSS/JS with a Vaadin part currently bei
   <li>Vaadin (Java framework for web apps)</li>
 </ul>
 
-In total frotnend side has 5 packages with 7 java files with about 484 lines of code. Html code has about 162 lines, css about 241 and js about 652.
-
 ## 1.4 Target Users
 
 <ul>
