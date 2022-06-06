@@ -1,4 +1,4 @@
-#PERSONAL LIBRARY APP
+# PERSONAL LIBRARY APP
 
 Go to https://github.com/MarcinPekala/ppfrontend for frontend repository
 
