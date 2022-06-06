@@ -128,14 +128,14 @@ Under "Add a book" and "Delete all books" button you can see "Switch to Vaadin F
 Under the form you'll see the list of all books in the database. By clicking "edit" you'll toggle the editing state, which will allow you to rewrite information regarding the book or abort this proccess if you don't want to make any changes. Some fields can be left blank. You can also click "delete" in order to delete a single book from the database by its id.
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/DBF2.png" width="600"/>
-<img src="https://github.com/MarcinPekala/readme_images/blob/master/DELETE.gif" width="600"/>
+<img src="https://github.com/MarcinPekala/readme_images/blob/master/DELETE.png" width="600"/>
 
 #### 2.2.5 Book status, details and book search via Google Books
 You can set a book status, from "Bought and read", "Bought but unread" and "To buy" in order to organize your collection by the purpose of the book inserted into the database.
 
-<img src="https://github.com/MarcinPekala/readme_images/blob/master/BOOKSTATUS.gif" width="600"/>
+<img src="https://github.com/MarcinPekala/readme_images/blob/master/BOOKSTATUS.png" width="600"/>
 
 If you want to know more about any book present in the database you can click "details" or "search". The first one will use Google Books API on the separate page where you can click "Get Details", which will initialize the API or click "Get Back" to go back to the main page. On the main page you can also use search, which will instantly direct you to the Google Books search engine.
 
-<img src="https://github.com/MarcinPekala/readme_images/blob/master/BOOKDETAILS.gif" width="600"/>
-<img src="https://github.com/MarcinPekala/readme_images/blob/master/BOOKSEARCH.gif" width="600"/>
+<img src="https://github.com/MarcinPekala/readme_images/blob/master/BOOKDETAILS.png" width="600"/>
+<img src="https://github.com/MarcinPekala/readme_images/blob/master/BOOKSEARCH.png" width="600"/>
