@@ -1,4 +1,4 @@
-<img src="https://github.com/MarcinPekala/readme_images/blob/master/PLA.png" width="400"/>
+#PERSONAL LIBRARY APP
 
 Go to https://github.com/MarcinPekala/ppfrontend for frontend repository
 
