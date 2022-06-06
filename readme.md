@@ -111,29 +111,19 @@ First thing you'll notice is the database size alert, which appears every time w
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/CONSOLE.png"/>
 
-#### 2.2.2 Accessing the database and endpoints documentation
-
-<img src="https://github.com/MarcinPekala/readme_images/blob/master/TB.png" width="600"/>
-
-On the top right you'll see two buttons. The first one on the left let's you access the endpoints documentation powered by swagger.io, and the second one let's you access the database console in SQL.
-
-<img src="https://github.com/MarcinPekala/readme_images/blob/master/DOCS.png" width="600"/>
-<img src="https://github.com/MarcinPekala/readme_images/blob/master/DB2.png" width="600"/>
-<img src="https://github.com/MarcinPekala/readme_images/blob/master/DB3.png" width="600"/>
-
-#### 2.2.3 Book form
+#### 2.2.2 Book form
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/FORM.png" width="600"/>
 
 To submit a book into the database you simply enter a book's details into "Book author", "Book title" and "Book's year of publication" fields, and click "Add a book". Not all fields need to be filled. You can also click "Delete all books" but this proccess is irreversible.
 
-#### 2.2.4 Switch to Vaadin front
+#### 2.2.3 Switch to Vaadin front
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/FORMV.png" width="600"/>
 
 Under "Add a book" and "Delete all books" button you can see "Switch to Vaadin Frontend" button, which allows you to switch frontend from HTML/CSS/JS based one to Vaadin, which is a Java framework for the web applications. Currently this part is under the development thus the notification window to confirm it will pop-up.
 
-#### 2.2.5 Editing and deleting books from the database
+#### 2.2.4 Editing and deleting books from the database
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/DBF.png" width="600"/>
 
@@ -142,7 +132,7 @@ Under the form you'll see the list of all books in the database. By clicking "ed
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/DBF2.png" width="600"/>
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/DELETE.gif" width="600"/>
 
-#### 2.2.6 Book status, details and book search via Google Books
+#### 2.2.5 Book status, details and book search via Google Books
 You can set a book status, from "Bought and read", "Bought but unread" and "To buy" in order to organize your collection by the purpose of the book inserted into the database.
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/BOOKSTATUS.gif" width="600"/>
