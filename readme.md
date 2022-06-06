@@ -72,17 +72,7 @@ You can use the following commands in terminal (for MacOS) to clone the reposito
   git clone https://github.com/MarcinPekala/ppbackend.git
   git clone https://github.com/MarcinPekala/ppfrontend.git
 ```
-
-2.	The H2 database is configured automatically but if you want to access the SQL database click the following buttton on the main page (both ppbackend and ppfrontend packages needs to be up and running to access it):
-
-  <img src="https://github.com/MarcinPekala/readme_images/blob/master/DB1.png" width="400"/>
-
-And use the following configuration:
-
-  <img src="https://github.com/MarcinPekala/readme_images/blob/master/DB2.png" width="400"/>
-  <img src="https://github.com/MarcinPekala/readme_images/blob/master/DB3.png" width="400"/>
-
-3.	To start the project first we need to:
+2.	To start the project first we need to:
 
 a) Open a terminal window (for MacOS) and find the location of ppbackend-master on your disk (or ppbackend when cloning the repository) using "ls" and "cd example_path" commands(for MacOS). After you opened the ppbackend-master (or ppbackend) via terminal use the following command:
 ```
@@ -105,11 +95,11 @@ b) If the backend is succesfully up and running then we repeat all the steps but
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/Terminal5.png" width="400"/>
 
-4. When both ppbackend-master (or ppbackend) and ppfrontend-master (or ppfrontend) are succesfully up and running we access the following address via search engine of your choice (Google Chrome reccomended): http://localhost:8081
+3. When both ppbackend-master (or ppbackend) and ppfrontend-master (or ppfrontend) are succesfully up and running we access the following address via search engine of your choice (Google Chrome reccomended): http://localhost:8081
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/Localhost.png" width="400"/>
 
-5. To close the application you need to close both terminal windows, which are locally hosting the application's frontend and backend or click "ctrl + c" to stop the apllication without closing the terminal.
+4. To close the application you need to close both terminal windows, which are locally hosting the application's frontend and backend or click "ctrl + c" to stop the apllication without closing the terminal.
 
 ## 2.2 Application's abilities and main functionalities
 
