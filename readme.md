@@ -125,8 +125,6 @@ Under "Add a book" and "Delete all books" button you can see "Switch to Vaadin F
 
 #### 2.2.4 Editing and deleting books from the database
 
-<img src="https://github.com/MarcinPekala/readme_images/blob/master/DBF.png" width="600"/>
-
 Under the form you'll see the list of all books in the database. By clicking "edit" you'll toggle the editing state, which will allow you to rewrite information regarding the book or abort this proccess if you don't want to make any changes. Some fields can be left blank. You can also click "delete" in order to delete a single book from the database by its id.
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/DBF2.png" width="600"/>
