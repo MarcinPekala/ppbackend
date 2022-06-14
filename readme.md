@@ -117,7 +117,7 @@ First thing you'll notice is the database size alert, which appears every time w
 
 To submit a book into the database you simply enter a book's details into "Book author", "Book title" and "Book's year of publication" fields, and click "Add a book". Not all fields need to be filled. You can also click "Delete all books" but this proccess is irreversible.
 
-#### 2.2.3 Switch to Vaadin front
+#### 2.2.3 Switch to Vaadin front (Only accessible when repository is downloaded locally)
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/FORMV.png" width="600"/>
 
