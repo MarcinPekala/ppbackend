@@ -4,10 +4,6 @@ Go to https://github.com/MarcinPekala/ppfrontend for frontend repository
 
 # 1. General description
 
-> Will add a general description after publishing the final version of the application under this address:
-> https://github.com/MarcinPekala/ppbackend/wiki
-
-
 ## 1.1 Application's name
 *Personal Library App*
 
