@@ -31,13 +31,14 @@ REST API writen in Java's Spring Boot with usage of following technologies in th
 In total backend side has 10 packages, totaling 12 classes, which has about 1288 lines of java according to statistic IntelliJ IDEA plugin and JUnit tests coverage of about 89%. 
 
 ### Frontend:
-Frontend side was mostly written in HTML/CSS/JS with a Vaadin part currently being under a development. I also used jQuery v3.4.1 framework for js to process HTTPS requests from the REST API. I also used Google Books API and Materialize v0.100.2 for HTML/JS/CSS. Summarizing, I used the following technologies:
+Frontend side was mostly written in HTML/CSS/JS with a Vaadin part currently being under a development. I also used jQuery v3.4.1 framework for js to process HTTPS requests from the REST API, and Bootstrap framework for js for frontend. I also used Google Books API and Materialize v0.100.2 for HTML/JS/CSS. Summarizing, I used the following technologies:
 
 <ul>
   <li>HTML/CSS/JS</li>
   <li>Google Books API</li>
   <li>Materialize v0.100.2</li>
   <li>jQuery v3.4.1</li>
+    <li>Bootstrap</li>
   <li>Vaadin (Java framework for web apps)</li>
 </ul>
 
