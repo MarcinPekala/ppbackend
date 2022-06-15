@@ -63,8 +63,9 @@ Frontend side was mostly written in HTML/CSS/JS with a Vaadin part currently bei
 Got to: https://marcinpekala.github.io/ (reccomended browser: Google Chrome) or
 
 1.	Clone or dowload repositories from: https://github.com/MarcinPekala/ppbackend.git and https://github.com/MarcinPekala/ppfrontend.git and https://github.com/MarcinPekala/ppfrontend-vaadin
-```
+
 You can use the following commands in terminal (for MacOS) to clone the repositories:
+```
   git clone https://github.com/MarcinPekala/ppbackend.git
   git clone https://github.com/MarcinPekala/ppfrontend.git
   git clone https://github.com/MarcinPekala/ppfrontend-vaadin
