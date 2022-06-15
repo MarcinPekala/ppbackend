@@ -1,6 +1,6 @@
 # PERSONAL LIBRARY APP
 
-Go to https://github.com/MarcinPekala/ppfrontend for frontend repository
+Go to https://github.com/MarcinPekala/ppfrontend and https://github.com/MarcinPekala/ppfrontend-vaadin for frontend repository
 
 # 1. General description
 
