@@ -62,11 +62,12 @@ Frontend side was mostly written in HTML/CSS/JS with a Vaadin part currently bei
 
 Got to: https://marcinpekala.github.io/ (reccomended browser: Google Chrome) or
 
-1.	Clone or dowload repositories from: https://github.com/MarcinPekala/ppbackend.git and https://github.com/MarcinPekala/ppfrontend.git
+1.	Clone or dowload repositories from: https://github.com/MarcinPekala/ppbackend.git and https://github.com/MarcinPekala/ppfrontend.git and https://github.com/MarcinPekala/ppfrontend-vaadin
 ```
 You can use the following commands in terminal (for MacOS) to clone the repositories:
   git clone https://github.com/MarcinPekala/ppbackend.git
   git clone https://github.com/MarcinPekala/ppfrontend.git
+  git clone https://github.com/MarcinPekala/ppfrontend-vaadin
 ```
 2.	To start the project first we need to:
 
@@ -91,7 +92,7 @@ b) If the backend is succesfully up and running then we repeat all the steps but
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/Terminal5.png" width="400"/>
 
-3. When both ppbackend-master (or ppbackend) and ppfrontend-master (or ppfrontend) are succesfully up and running we access the following address via search engine of your choice (Google Chrome reccomended): http://localhost:8081
+3. When both ppbackend-master (or ppbackend) and ppfrontend-master (or ppfrontend) and ppfrontend-vaadin-master (or ppfrontend-vaadin) are succesfully up and running we access the following address via search engine of your choice (Google Chrome reccomended): http://localhost:8081
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/Localhost.png" width="400"/>
 
