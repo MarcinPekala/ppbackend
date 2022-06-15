@@ -104,7 +104,7 @@ b) If the backend is succesfully up and running then we repeat all the steps but
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/DBS.png" width="600"/>
 
-First thing you'll notice is the database size alert, which appears every time when openning the website and also is set to reappear as a reminder every 10 seconds. Just click *OK* to proceed to the website. You can also find the same information in the terminal window on which the backend part is running:
+First thing you'll notice is the database size alert, which appears every time when openning the website and also is set to reappear as a reminder every one minute. Just click *OK* to proceed to the website. You can also find the same information in the terminal window on which the backend part is running:
 
 <img src="https://github.com/MarcinPekala/readme_images/blob/master/CONSOLE.png"/>
 
