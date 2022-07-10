@@ -61,7 +61,7 @@ Frontend side was mostly written in HTML/CSS/JS with a Vaadin part currently bei
 
 ### In order to start the application you need to do the following steps:
 
-Got to: https://marcinpekala.github.io/ (reccomended browser: Google Chrome) or
+Go to: https://marcinpekala.github.io/ (reccomended browser: Google Chrome) or
 
 1.	Clone or dowload repositories from: https://github.com/MarcinPekala/ppbackend.git and https://github.com/MarcinPekala/ppfrontend.git and https://github.com/MarcinPekala/ppfrontend-vaadin
 
